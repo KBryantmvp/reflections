@@ -3,13 +3,13 @@ What happens when you initialize a repository? Why do you need to do it?
 	You need to do it if you want to create a repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-	It is a temporary state.
+	It is a temporary state. It can be useful to track changes between these temporary files, your working directory files and the files already commited previously. You need to add your files to the staging area before commiting them.
 
 How can you use the staging area to make sure you have one commit per logical change?
 	Comparing with the most recent commit using "git diff --staged" command and the file in our working directory using "git diff".
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-	When you want to modify your files but it is a modification you do not want to affect to the main branch. 
+	When you want to modify your files but it is a modification you do not want to affect to the main branch. You can add new features or functions and just play with them but without affecting the main functionality of your main branch.
 
 How do the diagrams help you visualize the branch structure?
 	It is definitely clearer when trying to see the whole structure of your different branches.
